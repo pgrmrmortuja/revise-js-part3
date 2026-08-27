@@ -37,3 +37,7 @@ console.log(id)
 console.log(sub)
 console.log(science)
 
+//name alias
+const person = {address: "Dhaka", nickname: "Bablu"}
+const {address: add , nickname: nick} = person;
+console.log(add, nick);
