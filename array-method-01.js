@@ -20,4 +20,9 @@ const newFruits = fruits.map((f, idx) => {
 })
 console.log(newFruits);
 
+//filter
+const calculation = [1,2,3,4,5,6,7];
 
+const odd = calculation.filter(c => c % 2 === 1);
+
+console.log(odd);
